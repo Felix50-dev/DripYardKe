@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983232410185",
+    "project_id": "shopmanagementapp-8b74d",
+    "storage_bucket": "shopmanagementapp-8b74d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983232410185:android:0f6fbbeb69f81696d38598",
+        "android_client_info": {
+          "package_name": "com.coperative.dripyardke"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMrZqss7796hA007kiK3SlBvYswePgn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

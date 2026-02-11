@@ -1,0 +1,17 @@
+{
+  "functions": [
+    {
+      "source": "user",
+      "codebase": "user",
+      "runtime": "python313",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local",
+        "serviceAccountKey.json"
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.detekt)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -54,6 +55,16 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(platform(libs.firebase.bom))
+    // Firebase Auth
+    implementation(libs.firebase.auth)
+    // Firestore
+    implementation(libs.firebase.firestore)
+    // Optional: Cloud Functions
+    implementation(libs.firebase.functions)
+    // Optional: Storage for images
+    implementation(libs.firebase.storage)
+    implementation(libs.kotlinx.coroutines.play.services)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
