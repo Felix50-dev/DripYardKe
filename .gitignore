@@ -35,3 +35,20 @@ Thumbs.db
 
 # NDK
 .cxx/
+# secrets
+user/serviceAccountKey.json
+
+# Firebase / Secrets
+google-services.json
+serviceAccountKey.json
+.firebase/
+.firebaserc.local
+
+# Python
+user/venv/
+__pycache__/
+*.pyc
+
+# Firebase debug
+firebase-debug.log
+firebase-debug.*.log
