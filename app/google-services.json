@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "983232410185",
+    "firebase_url": "https://shopmanagementapp-8b74d-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "shopmanagementapp-8b74d",
     "storage_bucket": "shopmanagementapp-8b74d.firebasestorage.app"
   },
@@ -10,6 +11,25 @@
         "mobilesdk_app_id": "1:983232410185:android:0f6fbbeb69f81696d38598",
         "android_client_info": {
           "package_name": "com.coperative.dripyardke"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMrZqss7796hA007kiK3SlBvYswePgn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983232410185:android:b97ab8251a0d6c8bd38598",
+        "android_client_info": {
+          "package_name": "com.coperative.dripyardke.debug"
         }
       },
       "oauth_client": [],
